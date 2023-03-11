@@ -1,0 +1,34 @@
+{
+  "name": "loginwith",
+  "filename": "loginwith.js",
+  "description": "A 'Login with' site.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pluswebsite/loginwith.git"
+  },
+  "keywords": [
+    "login",
+    "loginwith",
+    "with",
+    "signin",
+    "sign-in"
+  ],
+  "license": "MIT",
+   "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/pluswebsite/loginwith.git",
+    "fileMap": [
+      {
+        "basePath": "lib",
+        "files": [
+          "*.js"
+        ]
+      }
+    ]
+  }},
+  "authors": [
+    {
+      "name": "Code Programer"
+    }
+  ]
+}
